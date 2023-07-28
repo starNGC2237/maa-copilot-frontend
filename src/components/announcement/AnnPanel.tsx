@@ -74,6 +74,7 @@ export const AnnPanel: FC<AnnPanelProps> = ({ className }) => {
         </div>
       </Card>
       <AnnDialog
+        style={{ width: "60%" }}
         sections={displaySections}
         isOpen={!!isOpen?.yes}
         canOutsideClickClose={isOpen?.manually}

@@ -66,7 +66,7 @@ export const AnnDialog: FC<AnnDialogProps> = ({ sections, ...dialogProps }) => {
 
   return (
     <Dialog className="" title="公告" icon="info-sign" {...dialogProps}>
-      <DialogBody className="">
+      <DialogBody className="px-6 py-6">
         {content ? (
           <Markdown
             rehypePlugins={[attachMetaPlugin]}
